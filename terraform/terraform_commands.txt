@@ -1,0 +1,44 @@
+# Terraform Initialization
+terraform init
+
+# Terraform Plan and Apply
+terraform plan
+terraform plan -out=<file>
+terraform apply
+terraform apply <plan-file>
+terraform apply -auto-approve
+
+# Terraform State
+terraform state list
+terraform state show <resource>
+terraform state mv <source> <destination>
+terraform state rm <resource>
+
+# Terraform Validation and Formatting
+terraform validate
+terraform fmt
+
+# Terraform Destroy
+terraform destroy
+terraform destroy -auto-approve
+
+# Terraform Import
+terraform import <address> <id>
+
+# Terraform Output
+terraform output
+terraform output -json
+
+# Terraform Workspace
+terraform workspace list
+terraform workspace new <name>
+terraform workspace select <name>
+
+# Debugging
+TF_LOG=TRACE terraform <command>
+
+# Other Useful Commands
+terraform show
+terraform graph
+terraform version
+terraform providers

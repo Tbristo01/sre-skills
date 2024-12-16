@@ -1,0 +1,41 @@
+What is terraform ? ( IAC - Infrastructure as Code)
+This is a tool for buidling , changing and versioning infrastructure safely and efficently.
+It enables application software best practices to infrastructure.
+It is compatible with many clouds and services. 
+
+
+How to Provision Cloud Resources?
+1-GUI 
+2.API/CLI
+3.IAC - Infrastructure as Code
+
+
+What is IAC - Infrastructure as Code?
+
+These are Categories of IAC - Infrastructure as Code Tools.
+1.Ad Hoc Script 
+2.Configuration Management Tools
+3.Server Templating Tools 
+4.Orchestration Tools 
+5.Provisioning Tools 
+
+
+
+Declarative vs. Imperative 
+The main difference between declarative and imperative Infrastructure as Code (IaC) is the approach taken to describe how to get to the desired state of a system: 
+
+Declarative
+Focuses on the desired state of the system, and the IaC tool figures out how to get there. This approach is simpler and more predictable, and is best for making changes or updates. 
+
+Imperative
+Focuses on the steps required to get to the desired state. This approach is more complex, but is better for complex infrastructure deployments where the order of events is important. 
+
+Here are some other differences between declarative and imperative IaC:
+Simplicity
+Declarative IaC is simpler to use because the developer only needs to describe the desired state of the system. Imperative IaC is more complex because the developer needs to define the steps to get to the desired state. 
+Idempotency
+Declarative IaC tools are idempotent, meaning they can be executed multiple times with the same result. Imperative IaC tools may not be idempotent because the end goal may be different depending on the starting point. 
+State management
+Declarative tools like Terraform maintain a state file that records the current state of infrastructure. Imperative tools like Ansible do not maintain state. 
+Use cases
+Declarative IaC is best for making changes or updates. Imperative IaC is best for sequential tasks such as software deployments. 
